@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Since I used semantic HTML I can now use header in the css */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* I changed the div to nav and adjusted the css accordingly*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -83,6 +83,8 @@ p {
     background-color: #2589bd;
 }
 
+/* I consolidated the three individual benifit classes into one benefit class. They were all styled the same and this significanly cut down on necessary css. */
+
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -98,6 +100,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* I consolidated the three individual service classes into one service class. They were all styled the same and this significanly cut down on necessary css. */
 
 .service {
     margin-bottom: 20px;
@@ -117,6 +121,7 @@ p {
     font-size: 36px;
 }
 
+/* I used semantic html to call the footer so I adjusted the css accordingly. */
 footer {
     padding: 30px;
     clear: both;
